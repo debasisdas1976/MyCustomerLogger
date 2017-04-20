@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: CustomerLogger
+  host: CustomerLogger
+  disk_quota: 1024M
+  services:
+  - CustomerLogger-cloudantNoSQLDB

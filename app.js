@@ -276,8 +276,8 @@ app.post('/api/logs', function(request, response) {
 
     console.log("Capturing the logs..");
     console.log("Log Data : " + request.body);
-	response.status(200);
-	response.end();
+	response.writeHead(200, {"Content-Type": "text/plain"});
+	response.end("Hello World");
 	return;
 });
 

@@ -278,6 +278,7 @@ app.post('/api/logs', function(request, response) {
     console.log("Log Data : " + request.body);
 	response.status(200);
 	response.end();
+	return;
 });
 
 app.post('/api/favorites', function(request, response) {

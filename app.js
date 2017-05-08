@@ -54,8 +54,8 @@ if ('development' == app.get('env')) {
 
 app.post('/api/logs', function(request, response) {
 
-    console.log("Capturing the logs..");
-    console.log("Log Data : " + request.body);
+    //console.log("Capturing the logs..");
+    //console.log("Log Data : " + request.body);
 	response.writeHead(200, {"Content-Type": "text/plain"});
 	response.end("Hello World");
 	return;

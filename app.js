@@ -111,8 +111,8 @@ app.post('/api/logs', function(request, response) {
         response.end();
     });
 
-	response.writeHead(200, {"Content-Type": "text/plain"});
-	response.end("Hello World");
+	//response.writeHead(200, {"Content-Type": "text/plain"});
+	//response.end("Hello World");
 	return;
 });
 

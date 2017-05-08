@@ -7,4 +7,4 @@ applications:
   host: CustomerLogger
   disk_quota: 1024M
   services:
-  - CustomerLogger-cloudantNoSQLDB
+  - MyCustomLoggerDB
